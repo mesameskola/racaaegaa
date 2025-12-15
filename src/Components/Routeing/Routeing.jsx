@@ -13,7 +13,9 @@ function Routeing() {
           <Link to="/About"> About,</Link>
         </li>
 
-        <li className="font-[EB_Garamond] ">Experiences,</li>
+        <li className="font-[EB_Garamond] ">
+          <Link to="/Experiences"> Experiences, </Link>
+        </li>
         <li className="font-[EB_Garamond] ">Email</li>
       </ul>
     </div>
