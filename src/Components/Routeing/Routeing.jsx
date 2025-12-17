@@ -18,6 +18,7 @@ function Routeing() {
         </li>
         <li className="font-[EB_Garamond] ">Email</li>
       </ul>
+      <hr className="w-full h-[2px] bg-red-500 sm:hidden block mt-[20px]" />
     </div>
   );
 }

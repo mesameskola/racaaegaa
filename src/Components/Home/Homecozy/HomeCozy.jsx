@@ -7,13 +7,13 @@ function HomeCozy() {
   return (
     <>
       <div className=" gap-[20px] md:mt-[34px] mt-[50px] w-[100%] flex md:flex-row justify-center items-center flex-col text-center ">
-        <div className="w-[50%] ">
+        <div className="sm:w-[50%] w-full">
           <p className="text-[40px] mb-[90px]">
             Cozy meets refined on Balmain's waterfront.
           </p>
           <Buttons btn1="Book on Resy" btn2="Dining Experiences" />
         </div>
-        <div className="w-[50%]">
+        <div className="sm:w-[50%] w-full">
           <hr className="w-[100%] mb-[30px]" />
           <Schedule />
         </div>
