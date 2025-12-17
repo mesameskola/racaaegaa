@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Routeing() {
   return (
-    <div className=" w-[100%] justify-between text-center md:flex">
+    <div className=" w-[100%] flex flex-col justify-between  sm:flex-row sm:items-start items-center ">
       <h1 className="Rose text-[150px] font-[East_Sea_Dokdo] ">
         <Link to="/"> Rose </Link>
       </h1>
